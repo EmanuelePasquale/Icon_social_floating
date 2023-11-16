@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    background-color:black;
+}
+.icons{
+    position:relative;
+    left: 45%;
+    top: 200px;
+}
+.icon{ 
+    justify-content:center;
+    display: inline-block; 
+    animation: animated 5s ease-in-out infinite; 
+    color: #fff; 
+    right: 0; 
+    gap:2;
+    cursor: pointer; 
+    font-size: 3.3em; 
+    transition: 0.3s; 
+} 
+#insta{ 
+    animation-delay: 1s; 
+} 
+#tiktok{ 
+    animation-delay: 2s; 
+} 
+@keyframes animated { 
+    0% 
+    { 
+        transform: translateY(0); 
+    } 
+    50% 
+    { 
+        transform: translateY(-15px); 
+    } 
+    100% 
+    { 
+        transform: translateY(0); 
+    } 
+}
